@@ -6,7 +6,7 @@ Support for schedules provided by [Kolding Kommune](https://kolding.dk/), servin
 
 ```yaml
 waste_collection_schedule:
-    sources:
+  sources:
     - name: kolding_dk
       args:
         id: See description
@@ -21,7 +21,7 @@ _(String) (required)_
 
 ```yaml
 waste_collection_schedule:
-    sources:
+  sources:
     - name: kolding_dk
       args:
         id: "00007b8d-0002-0001-4164-647265737320"
@@ -29,9 +29,7 @@ waste_collection_schedule:
 
 ## How to get the id
 
-    To get your UUID (Geolocation) ID:
-    1. Go to the [Kolding Kommune Min Side](https://kolding.dk/) page and navigate to waste collection services. 
-    2. or go directly to : https://kolding.infovision.dk/public/selectaddress
-    3. Search for your address.
-    4. You will find your ID in URL i.e. : https://kolding.infovision.dk/public/address/00007b8d-0002-0001-4164-647265737320
-    5. The ID should be a UUID format like: `00007b8d-0002-0001-4164-647265737320`
+1. Go to https://kolding.infovision.dk/public/selectaddress
+2. Search for your address.
+3. Your ID is in the resulting URL, e.g. `https://kolding.infovision.dk/public/address/00007b8d-0002-0001-4164-647265737320`
+4. The ID is the UUID at the end: `00007b8d-0002-0001-4164-647265737320`
