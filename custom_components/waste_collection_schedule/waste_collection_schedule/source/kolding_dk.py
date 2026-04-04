@@ -34,8 +34,8 @@ HOW_TO_GET_ARGUMENTS_DESCRIPTION = {
     1. Go to the www.kolding.dk/mitaffald.
     2. or go directly to : https://kolding.infovision.dk/public/selectaddress
     3. Search for your address.
-    4. You will find your ID in URL i.e. : https://koldingivapi.infovision.dk/public/address/00006ac8-0002-0001-4164-647265737320
-    5. The ID should be a UUID format like: `00006ac8-0002-0001-4164-647265737320`
+    4. You will find your ID in URL i.e. : https://kolding.infovision.dk/public/address/00007b8d-0002-0001-4164-647265737320
+    5. The ID should be a UUID format like: `00007b8d-0002-0001-4164-647265737320`
     """,
 }
 
